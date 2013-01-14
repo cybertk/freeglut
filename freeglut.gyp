@@ -18,7 +18,9 @@
           'type': 'none',
           'link_settings': {
             'libraries': [
-              '-lfreeglut',
+              '-lglut',
+              '-lGLU',
+              '-lGL',
             ],
           },
         }, # target
