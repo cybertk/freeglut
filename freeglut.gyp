@@ -44,7 +44,7 @@
           'msvs_settings': {
             'VCCLCompilerTool': {
               'CompileAs': '1',
-              'DisableSpecificWarnings': '4996',
+              'DisableSpecificWarnings': [ '4133' ],
             },
             'VCLibrarianTool': {
               # pragma in code explictly use freeglut_static.lib.
